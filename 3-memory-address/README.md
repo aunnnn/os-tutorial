@@ -1,7 +1,7 @@
 # Session 3: Memory
 ## Memory address (CPU)
-We can visualize physical memory as long sequence of bytes:
-![](&&&SFLOCALFILEPATH&&&15153470-6E0A-457F-9422-71DC12720721.png)
+We can visualize physical memory as long sequence of bytes (image from the Nick Blundell’s book):
+![img](memory.png)
 which can be indexed by hex number (12th byte as 0x0c, etc.).
 
 BIOS loads the boot sector (our program) at predefined address: _0x7c00_. There’s enough space for Interrupt vector, BIOS, etc. at the beginning of the memory to prevent overwriting.
